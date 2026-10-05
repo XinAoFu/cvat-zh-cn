@@ -1,0 +1,376 @@
+{
+    "Could not receive a list of organizations": "无法获取组织列表",
+    "about": {
+        "What's new": "新内容",
+        "MIT License": "MIT 协议",
+        "Find us on Discord": "去 Discord 上找我们",
+        "Server version": "服务器版本:",
+        "UI version": "UI 版本"
+    },
+    "Admin page": "管理页",
+    "Switch organization": "切换组织",
+    "Personal workspace": "个人空间",
+    "Click to open": "点击打开",
+    "Press {{shortcut}} to switch": "按 {{shortcut}} 切换",
+    "settings": {
+        "title": "设置",
+        "Player": {
+            "label": "播放器",
+            "step": "播放步长",
+            "step-tips": "当使用<1/>或<3/>时跳过的关键帧数",
+            "speed": "播放速度",
+            "speeds": {
+                "Fastest": "最快",
+                "Fast": "更快",
+                "Usual": "正常",
+                "Slow": "慢",
+                "Slower": "更慢",
+                "Slowest": "最慢"
+            },
+            "Select canvas background color": "选择画布背景色",
+            "Reset zoom": "重置缩放",
+            "Fit image after changing frame": "切换帧后适应图片",
+            "Rotate all images": "旋转所有图片",
+            "Rotate all images simultaneously": "同时旋转所有图片",
+            "Smooth image": "平滑图片",
+            "Smooth image when zoom-in it": "放大时平滑图像",
+            "Show deleted frames": "显示已删除的帧",
+            "You will be able to navigate and restore deleted frames": "你可以浏览恢复删除的帧"
+        },
+        "Workspace": {
+            "label": "工作区",
+            "Enable auto save": "开启自动保存",
+            "auto-save-tips": [
+                "自动保存每 ",
+                " 分钟"
+            ],
+            "show-interpolated": "显示所有插补轨道",
+            "show-interpolated-tips": "在边栏显示隐藏的插补对象",
+            "show-text-always": "总显示对象详情",
+            "show-text-always-tips": "不止在画布中显示激活对象的文本",
+            "text-settings-content": "文本内容",
+            "text-settings-contents": {
+                "ID": "ID",
+                "Label": "标记",
+                "Attributes": "属性",
+                "Source": "源代码",
+                "Descriptions": "描述",
+                "Dimensions": "维度",
+                "Layer": "图层"
+            },
+            "text-settings-text-position": "文本位置",
+            "text-settings-text-positions": {
+                "Auto": "自动",
+                "Center": "居中"
+            },
+            "text-settings-font-size": "文本字号",
+            "auto-borders": "自动边缘",
+            "auto-borders-tips": "绘制或编辑多边形和折线时，启用自动边缘",
+            "intelligent-polygon-cropping": "智能多边形裁剪",
+            "intelligent-polygon-cropping-tips": "尝试在编辑时自动裁剪多边形",
+            "Show tags on frame": "框架上显示标签",
+            "Show frame tags in the corner of the workspace": "工作区角落显示框架标签",
+            "aam-zoom-margin": "属性注释模式 (AAM) 缩放余量",
+            "control-points-size": "控制点大小",
+            "approx-poly-threshold": "默认多边形简化阈值",
+            "approx-poly-threshold-tips": "值越大保留的多边形细节越多。用于 serverless 交互标注、OpenCV 剪刀和多边形简化",
+            "adaptive-zoom-algorithm": "自适应缩放算法",
+            "adaptive-zoom-tips": "启用更平滑的缩放，兼容触控板与捏合手势",
+            "focused-padding": "聚焦对象边距"
+        },
+        "Shortcuts": {
+            "label": "快捷键",
+            "restore-modal-title": "确认恢复默认设置",
+            "search-placeholder": "在这里查快捷键...",
+            "warning": "快捷键可由任何修饰符(alt, ctrl, or shift)组合, 最后加上非修饰符。某些组合键可能会被浏览器保留，不能在 CVAT 覆盖",
+            "SWITCH_SHORTCUTS": [
+                "Show shortcuts",
+                "Open/hide the list of available shortcuts"
+            ],
+            "SWITCH_SETTINGS": [
+                "Show settings",
+                "Open/hide settings dialog"
+            ],
+            "TOGGLE_ANNOTATION_PAGE": [
+                "Toggle layout grid",
+                "The grid is used to UI development"
+            ],
+            "SELECT_ALL": [
+                "Select all",
+                "Select all resources"
+            ],
+            "SWITCH_COLOR_BY_APPEARANCE": [
+                "Switch objects appearance setting \"Color by\"",
+                "Objects color mode may be by object, label, or group"
+            ],
+            "TOGGLE_SHOW_BITMAP_APPEARANCE": [
+                "Switch objects appearance setting \"Show bitmap\"",
+                "Show or hide the bitmap layer on the canvas"
+            ],
+            "PASTE_SHAPE": [
+                "Paste shape",
+                "Paste a shape from internal CVAT clipboard"
+            ],
+            "SWITCH_DRAW_MODE_STANDARD_3D_CONTROLS": [
+                "Draw mode",
+                "Repeat the latest procedure of drawing with the same parameters"
+            ],
+            "SWITCH_REDRAW_MODE_STANDARD_3D_CONTROLS": [
+                "Redraw shape",
+                "Remove selected shape and redraw it from scratch"
+            ],
+            "SWITCH_GROUP_MODE_STANDARD_3D_CONTROLS": [
+                "Group mode",
+                "Activate or deactivate mode to grouping shapes"
+            ],
+            "RESET_GROUP_STANDARD_3D_CONTROLS": [
+                "Reset group",
+                "Reset group for selected shapes (in group mode)"
+            ],
+            "SWITCH_MERGE_MODE_STANDARD_3D_CONTROLS": [
+                "Merge mode",
+                "Activate or deactivate mode to merging shapes"
+            ],
+            "SWITCH_SPLIT_MODE_STANDARD_3D_CONTROLS": [
+                "Split mode",
+                "Activate or deactivate mode to splitting shapes"
+            ],
+            "CANCEL": [
+                "Cancel",
+                "Cancel any active canvas mode"
+            ],
+            "SWITCH_SLICE_MODE_STANDARD_CONTROLS": [
+                "Slice mode",
+                "Activate or deactivate a mode to slice a polygon/mask"
+            ],
+            "CLOCKWISE_ROTATION_STANDARD_CONTROLS": [
+                "Rotate clockwise",
+                "Change active rectangle or ellipse orientation clockwise by 90°, or rotate the image if none is active"
+            ],
+            "ANTICLOCKWISE_ROTATION_STANDARD_CONTROLS": [
+                "Rotate anticlockwise",
+                "Change active rectangle or ellipse orientation counterclockwise by 90°, or rotate the image if none is active"
+            ],
+            "SWITCH_DRAW_MODE_STANDARD_CONTROLS": [
+                "Draw mode",
+                "Repeat the latest procedure of drawing with the same parameters"
+            ],
+            "SWITCH_REDRAW_MODE_STANDARD_CONTROLS": [
+                "Redraw shape",
+                "Remove selected shape and redraw it from scratch"
+            ],
+            "SWITCH_GROUP_MODE_STANDARD_CONTROLS": [
+                "Group mode",
+                "Activate or deactivate mode to grouping shapes"
+            ],
+            "RESET_GROUP_STANDARD_CONTROLS": [
+                "Reset group",
+                "Reset group for selected shapes (in group mode)"
+            ],
+            "SWITCH_MERGE_MODE_STANDARD_CONTROLS": [
+                "Merge mode",
+                "Activate or deactivate mode to merging shapes"
+            ],
+            "SWITCH_SPLIT_MODE_STANDARD_CONTROLS": [
+                "Split mode",
+                "Activate or deactivate mode to splitting shapes"
+            ],
+            "SWITCH_JOIN_MODE_STANDARD_CONTROLS": [
+                "Join mode",
+                "Activate or deactivate a mode where you can join polygons and masks"
+            ],
+            "OPEN_REVIEW_ISSUE": [
+                "Open an issue",
+                "Create a new issues in the review workspace"
+            ],
+            "NEXT_ATTRIBUTE": [
+                "Next attribute",
+                "Go to the next attribute"
+            ],
+            "PREVIOUS_ATTRIBUTE": [
+                "Previous attribute",
+                "Go to the previous attribute"
+            ],
+            "SWITCH_LOCK": [
+                "Lock/unlock an object",
+                "Change locked state for an active object"
+            ],
+            "SWITCH_OCCLUDED": [
+                "Switch occluded",
+                "Change occluded property for an active object"
+            ],
+            "SWITCH_PINNED": [
+                "Switch pinned property",
+                "Change pinned property for an active object"
+            ],
+            "NEXT_KEY_FRAME": [
+                "Next keyframe",
+                "Go to the next keyframe of an active track"
+            ],
+            "PREV_KEY_FRAME": [
+                "Previous keyframe",
+                "Go to the previous keyframe of an active track"
+            ],
+            "SWITCH_DRAW_MODE_TAG_ANNOTATION": [
+                "Create a tag",
+                "Add a new tag, corresponding to the selected label."
+            ],
+            "SWITCH_DRAW_MODE_SINGLE_SHAPE": [
+                "Draw mode",
+                "Repeat the latest procedure of drawing with the same parameters"
+            ],
+            "CANCEL_SINGLE_SHAPE": [
+                "Cancel",
+                "Cancel any active canvas mode"
+            ],
+            "DELETE_OBJECT_SINGLE_SHAPE": [
+                "Delete object",
+                "Delete an active object. Use shift to force delete of locked objects"
+            ],
+            "HIDE_MASK_SINGLE_SHAPE": [
+                "Hide mask",
+                "Hide currently edited mask"
+            ],
+            "ACTIVATE_BRUSH_TOOL_STANDARD_CONTROLS": [
+                "Brush tool",
+                "Activate brush tool on masks drawing toolbox"
+            ],
+            "ACTIVATE_ERASER_TOOL_STANDARD_CONTROLS": [
+                "Eraser tool",
+                "Activate eraser tool on masks drawing toolbox"
+            ],
+            "ACTIVATE_POLYGON_TOOL_STANDARD_CONTROLS": [
+                "Polygon tool",
+                "Activate polygon tool on masks drawing toolbox"
+            ],
+            "ACTIVATE_POLYGON_REMOVE_TOOL_STANDARD_CONTROLS": [
+                "Polygon remove tool",
+                "Activate polygon remove tool on masks drawing toolbox"
+            ],
+            "SWITCH_AUTOMATIC_BORDERING": [
+                "Toggle snap to contour",
+                "Toggle automatic snap to contour for polygons and polylines during drawing/editing"
+            ],
+            "SWITCH_SNAP_TO_POINT": [
+                "Toggle snap to point",
+                "Toggle automatic snapping to nearby points"
+            ],
+            "NEXT_OBJECT": [
+                "Next object",
+                "Go to the next object and center it on the canvas"
+            ],
+            "PREVIOUS_OBJECT": [
+                "Previous object",
+                "Go to the previous object and center it on the canvas"
+            ],
+            "TILT_UP": [
+                "Camera Roll Angle Up",
+                "Increases camera roll angle"
+            ],
+            "TILT_DOWN": [
+                "Camera Roll Angle Down",
+                "Decreases camera roll angle"
+            ],
+            "ROTATE_LEFT": [
+                "Camera Pitch Angle Left",
+                "Decreases camera pitch angle"
+            ],
+            "ROTATE_RIGHT": [
+                "Camera Pitch Angle Right",
+                "Increases camera pitch angle"
+            ],
+            "MOVE_UP": [
+                "Camera Move Up",
+                "Move the camera up"
+            ],
+            "MOVE_DOWN": [
+                "Camera Move Down",
+                "Move the camera down"
+            ],
+            "MOVE_LEFT": [
+                "Camera Move Left",
+                "Move the camera left"
+            ],
+            "MOVE_RIGHT": [
+                "Camera Move Right",
+                "Move the camera right"
+            ],
+            "ZOOM_IN": [
+                "Camera Zoom In",
+                "Performs zoom in"
+            ],
+            "ZOOM_OUT": [
+                "Camera Zoom Out",
+                "Performs zoom out"
+            ],
+            "DELETE_FRAME": [
+                "删除帧",
+                "删除帧"
+            ],
+            "FOCUS_INPUT_FRAME": [
+                "聚焦帧输入框",
+                "Focus on the element to change the current frame"
+            ],
+            "SEARCH_FRAME_BY_NAME": [
+                "按名称搜索帧",
+                "Open search frame by name dialog"
+            ],
+            "UNDO": [
+                "撤销操作",
+                "Cancel the latest action related with objects"
+            ],
+            "REDO": [
+                "重做操作",
+                "取消撤销操作"
+            ],
+            "SWITCH_TOOLS_BLOCKER_STATE": [
+                "Switch algorithm blocker",
+                "Postpone running the algorithm for interaction tools"
+            ],
+            "NEXT_FRAME": [
+                "下一帧",
+                "跳到下一帧"
+            ],
+            "PREV_FRAME": [
+                "上一帧",
+                "跳到上一帧"
+            ],
+            "FORWARD_FRAME": [
+                "前进一帧",
+                "按步长前进"
+            ],
+            "BACKWARD_FRAME": [
+                "后退一帧",
+                "按步长后退"
+            ],
+            "SEARCH_FORWARD": [
+                "Search forward",
+                "Search the next frame that satisfies to the filters"
+            ],
+            "SEARCH_BACKWARD": [
+                "Search backward",
+                "Search the previous frame that satisfies to the filters"
+            ],
+            "CHAPTER_BACKWARD": [
+                "上一章节",
+                "跳到上一章节"
+            ],
+            "CHAPTER_FORWARD": [
+                "下一章节",
+                "跳到下一章节"
+            ],
+            "PLAY_PAUSE": [
+                "播放/暂停",
+                "开始/停止自动切帧"
+            ],
+            "SAVE_JOB": [
+                "保存作业",
+                "Submit unsaved changes of annotations to the server"
+            ],
+            "CANCEL_SKELETON_EDGE": [
+                "Cancel skeleton drawing",
+                "Interrupts drawing a new skeleton edge"
+            ]
+        }
+    }
+}

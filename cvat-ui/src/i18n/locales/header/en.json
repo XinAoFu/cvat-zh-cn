@@ -1,0 +1,376 @@
+{
+    "Could not receive a list of organizations": "Could not receive a list of organizations",
+    "about": {
+        "What's new": "What's new",
+        "MIT License": "MIT License",
+        "Find us on Discord": "Find us on Discord",
+        "Server version": "Server version:",
+        "UI version": "UI version"
+    },
+    "Admin page": "Admin page",
+    "Switch organization": "Switch organization",
+    "Personal workspace": "Personal workspace",
+    "Click to open": "Click to open ",
+    "Press {{shortcut}} to switch": "Press {{shortcut}} to switch",
+    "settings": {
+        "title": "Settings",
+        "Player": {
+            "label": "Player",
+            "step": "Player step",
+            "step-tips": "Number of frames skipped when selecting<1/>or</3>",
+            "speed": "Player speed",
+            "speeds": {
+                "Fastest": "Fastest",
+                "Fast": "Fast",
+                "Usual": "Usual",
+                "Slow": "Slow",
+                "Slower": "Slower",
+                "Slowest": "Slowest"
+            },
+            "Select canvas background color": "Select canvas background color",
+            "Reset zoom": "Reset zoom",
+            "Fit image after changing frame": "Fit image after changing frame",
+            "Rotate all images": "Rotate all images",
+            "Rotate all images simultaneously": "Rotate all images simultaneously",
+            "Smooth image": "Smooth image",
+            "Smooth image when zoom-in it": "Smooth image when zoom-in it",
+            "Show deleted frames": "Show deleted frames",
+            "You will be able to navigate and restore deleted frames": "You will be able to navigate and restore deleted frames"
+        },
+        "Workspace": {
+            "label": "Workspace",
+            "Enable auto save": "Enable auto save",
+            "auto-save-tips": [
+                "Auto save every",
+                "minutes"
+            ],
+            "show-interpolated": "Show all interpolation tracks",
+            "show-interpolated-tips": "Show hidden interpolated objects in the side panel",
+            "show-text-always": "Always show object details",
+            "show-text-always-tips": "Show text for an object on the canvas not only when the object is activated",
+            "text-settings-content": "Content of a text",
+            "text-settings-contents": {
+                "ID": "ID",
+                "Label": "Label",
+                "Attributes": "Attributes",
+                "Source": "Source",
+                "Descriptions": "Descriptions",
+                "Dimensions": "Dimensions",
+                "Layer": "Layer"
+            },
+            "text-settings-text-position": "Position of a text",
+            "text-settings-text-positions": {
+                "Auto": "Auto",
+                "Center": "Center"
+            },
+            "text-settings-font-size": "Font size of a text",
+            "auto-borders": "Automatic bordering",
+            "auto-borders-tips": "Enable automatic bordering for polygons and polylines during drawing/editing",
+            "intelligent-polygon-cropping": "Intelligent polygon cropping",
+            "intelligent-polygon-cropping-tips": "Try to crop polygons automatically when editing",
+            "Show tags on frame": "Show tags on frame",
+            "Show frame tags in the corner of the workspace": "Show frame tags in the corner of the workspace",
+            "aam-zoom-margin": "Attribute annotation mode (AAM) zoom margin",
+            "control-points-size": "Control points size",
+            "approx-poly-threshold": "Default polygon simplification threshold",
+            "approx-poly-threshold-tips": "Higher values preserve more polygon detail. Used for serverless interactors, OpenCV scissors, and polygon simplification",
+            "adaptive-zoom-algorithm": "Adaptive zoom algorithm",
+            "adaptive-zoom-tips": "Enable smoother version of zooming, compatible with a trackpad and pinch gestures",
+            "focused-padding": "Focused object padding"
+        },
+        "Shortcuts": {
+            "label": "Shortcuts",
+            "restore-modal-title": "Are you sure you want to restore defaults?",
+            "search-placeholder": "Search for a shortcut here...",
+            "warning": "Shortcut may consist of any combination of modifiers (alt, ctrl, or shift) and one non-modifier at the end. Some key combinations may be reserved by the browser and cannot be overridden in CVAT.",
+            "SWITCH_SHORTCUTS": [
+                "Show shortcuts",
+                "Open/hide the list of available shortcuts"
+            ],
+            "SWITCH_SETTINGS": [
+                "Show settings",
+                "Open/hide settings dialog"
+            ],
+            "TOGGLE_ANNOTATION_PAGE": [
+                "Toggle layout grid",
+                "The grid is used to UI development"
+            ],
+            "SELECT_ALL": [
+                "Select all",
+                "Select all resources"
+            ],
+            "SWITCH_COLOR_BY_APPEARANCE": [
+                "Switch objects appearance setting \"Color by\"",
+                "Objects color mode may be by object, label, or group"
+            ],
+            "TOGGLE_SHOW_BITMAP_APPEARANCE": [
+                "Switch objects appearance setting \"Show bitmap\"",
+                "Show or hide the bitmap layer on the canvas"
+            ],
+            "PASTE_SHAPE": [
+                "Paste shape",
+                "Paste a shape from internal CVAT clipboard"
+            ],
+            "SWITCH_DRAW_MODE_STANDARD_3D_CONTROLS": [
+                "Draw mode",
+                "Repeat the latest procedure of drawing with the same parameters"
+            ],
+            "SWITCH_REDRAW_MODE_STANDARD_3D_CONTROLS": [
+                "Redraw shape",
+                "Remove selected shape and redraw it from scratch"
+            ],
+            "SWITCH_GROUP_MODE_STANDARD_3D_CONTROLS": [
+                "Group mode",
+                "Activate or deactivate mode to grouping shapes"
+            ],
+            "RESET_GROUP_STANDARD_3D_CONTROLS": [
+                "Reset group",
+                "Reset group for selected shapes (in group mode)"
+            ],
+            "SWITCH_MERGE_MODE_STANDARD_3D_CONTROLS": [
+                "Merge mode",
+                "Activate or deactivate mode to merging shapes"
+            ],
+            "SWITCH_SPLIT_MODE_STANDARD_3D_CONTROLS": [
+                "Split mode",
+                "Activate or deactivate mode to splitting shapes"
+            ],
+            "CANCEL": [
+                "Cancel",
+                "Cancel any active canvas mode"
+            ],
+            "SWITCH_SLICE_MODE_STANDARD_CONTROLS": [
+                "Slice mode",
+                "Activate or deactivate a mode to slice a polygon/mask"
+            ],
+            "CLOCKWISE_ROTATION_STANDARD_CONTROLS": [
+                "Rotate clockwise",
+                "Change active rectangle or ellipse orientation clockwise by 90°, or rotate the image if none is active"
+            ],
+            "ANTICLOCKWISE_ROTATION_STANDARD_CONTROLS": [
+                "Rotate anticlockwise",
+                "Change active rectangle or ellipse orientation counterclockwise by 90°, or rotate the image if none is active"
+            ],
+            "SWITCH_DRAW_MODE_STANDARD_CONTROLS": [
+                "Draw mode",
+                "Repeat the latest procedure of drawing with the same parameters"
+            ],
+            "SWITCH_REDRAW_MODE_STANDARD_CONTROLS": [
+                "Redraw shape",
+                "Remove selected shape and redraw it from scratch"
+            ],
+            "SWITCH_GROUP_MODE_STANDARD_CONTROLS": [
+                "Group mode",
+                "Activate or deactivate mode to grouping shapes"
+            ],
+            "RESET_GROUP_STANDARD_CONTROLS": [
+                "Reset group",
+                "Reset group for selected shapes (in group mode)"
+            ],
+            "SWITCH_MERGE_MODE_STANDARD_CONTROLS": [
+                "Merge mode",
+                "Activate or deactivate mode to merging shapes"
+            ],
+            "SWITCH_SPLIT_MODE_STANDARD_CONTROLS": [
+                "Split mode",
+                "Activate or deactivate mode to splitting shapes"
+            ],
+            "SWITCH_JOIN_MODE_STANDARD_CONTROLS": [
+                "Join mode",
+                "Activate or deactivate a mode where you can join polygons and masks"
+            ],
+            "OPEN_REVIEW_ISSUE": [
+                "Open an issue",
+                "Create a new issues in the review workspace"
+            ],
+            "NEXT_ATTRIBUTE": [
+                "Next attribute",
+                "Go to the next attribute"
+            ],
+            "PREVIOUS_ATTRIBUTE": [
+                "Previous attribute",
+                "Go to the previous attribute"
+            ],
+            "SWITCH_LOCK": [
+                "Lock/unlock an object",
+                "Change locked state for an active object"
+            ],
+            "SWITCH_OCCLUDED": [
+                "Switch occluded",
+                "Change occluded property for an active object"
+            ],
+            "SWITCH_PINNED": [
+                "Switch pinned property",
+                "Change pinned property for an active object"
+            ],
+            "NEXT_KEY_FRAME": [
+                "Next keyframe",
+                "Go to the next keyframe of an active track"
+            ],
+            "PREV_KEY_FRAME": [
+                "Previous keyframe",
+                "Go to the previous keyframe of an active track"
+            ],
+            "SWITCH_DRAW_MODE_TAG_ANNOTATION": [
+                "Create a tag",
+                "Add a new tag, corresponding to the selected label."
+            ],
+            "SWITCH_DRAW_MODE_SINGLE_SHAPE": [
+                "Draw mode",
+                "Repeat the latest procedure of drawing with the same parameters"
+            ],
+            "CANCEL_SINGLE_SHAPE": [
+                "Cancel",
+                "Cancel any active canvas mode"
+            ],
+            "DELETE_OBJECT_SINGLE_SHAPE": [
+                "Delete object",
+                "Delete an active object. Use shift to force delete of locked objects"
+            ],
+            "HIDE_MASK_SINGLE_SHAPE": [
+                "Hide mask",
+                "Hide currently edited mask"
+            ],
+            "ACTIVATE_BRUSH_TOOL_STANDARD_CONTROLS": [
+                "Brush tool",
+                "Activate brush tool on masks drawing toolbox"
+            ],
+            "ACTIVATE_ERASER_TOOL_STANDARD_CONTROLS": [
+                "Eraser tool",
+                "Activate eraser tool on masks drawing toolbox"
+            ],
+            "ACTIVATE_POLYGON_TOOL_STANDARD_CONTROLS": [
+                "Polygon tool",
+                "Activate polygon tool on masks drawing toolbox"
+            ],
+            "ACTIVATE_POLYGON_REMOVE_TOOL_STANDARD_CONTROLS": [
+                "Polygon remove tool",
+                "Activate polygon remove tool on masks drawing toolbox"
+            ],
+            "SWITCH_AUTOMATIC_BORDERING": [
+                "Toggle snap to contour",
+                "Toggle automatic snap to contour for polygons and polylines during drawing/editing"
+            ],
+            "SWITCH_SNAP_TO_POINT": [
+                "Toggle snap to point",
+                "Toggle automatic snapping to nearby points"
+            ],
+            "NEXT_OBJECT": [
+                "Next object",
+                "Go to the next object and center it on the canvas"
+            ],
+            "PREVIOUS_OBJECT": [
+                "Previous object",
+                "Go to the previous object and center it on the canvas"
+            ],
+            "TILT_UP": [
+                "Camera Roll Angle Up",
+                "Increases camera roll angle"
+            ],
+            "TILT_DOWN": [
+                "Camera Roll Angle Down",
+                "Decreases camera roll angle"
+            ],
+            "ROTATE_LEFT": [
+                "Camera Pitch Angle Left",
+                "Decreases camera pitch angle"
+            ],
+            "ROTATE_RIGHT": [
+                "Camera Pitch Angle Right",
+                "Increases camera pitch angle"
+            ],
+            "MOVE_UP": [
+                "Camera Move Up",
+                "Move the camera up"
+            ],
+            "MOVE_DOWN": [
+                "Camera Move Down",
+                "Move the camera down"
+            ],
+            "MOVE_LEFT": [
+                "Camera Move Left",
+                "Move the camera left"
+            ],
+            "MOVE_RIGHT": [
+                "Camera Move Right",
+                "Move the camera right"
+            ],
+            "ZOOM_IN": [
+                "Camera Zoom In",
+                "Performs zoom in"
+            ],
+            "ZOOM_OUT": [
+                "Camera Zoom Out",
+                "Performs zoom out"
+            ],
+            "DELETE_FRAME": [
+                "Delete frame",
+                "Delete frame"
+            ],
+            "FOCUS_INPUT_FRAME": [
+                "Focus input frame",
+                "Focus on the element to change the current frame"
+            ],
+            "SEARCH_FRAME_BY_NAME": [
+                "Search frame by name",
+                "Open search frame by name dialog"
+            ],
+            "UNDO": [
+                "Undo action",
+                "Cancel the latest action related with objects"
+            ],
+            "REDO": [
+                "Redo action",
+                "Cancel undo action"
+            ],
+            "SWITCH_TOOLS_BLOCKER_STATE": [
+                "Switch algorithm blocker",
+                "Postpone running the algorithm for interaction tools"
+            ],
+            "NEXT_FRAME": [
+                "Next frame",
+                "Go to the next frame"
+            ],
+            "PREV_FRAME": [
+                "Previous frame",
+                "Go to the previous frame"
+            ],
+            "FORWARD_FRAME": [
+                "Forward frame",
+                "Go forward with a step"
+            ],
+            "BACKWARD_FRAME": [
+                "Backward frame",
+                "Go backward with a step"
+            ],
+            "SEARCH_FORWARD": [
+                "Search forward",
+                "Search the next frame that satisfies to the filters"
+            ],
+            "SEARCH_BACKWARD": [
+                "Search backward",
+                "Search the previous frame that satisfies to the filters"
+            ],
+            "CHAPTER_BACKWARD": [
+                "Chapter backward",
+                "Go to the previous chapter"
+            ],
+            "CHAPTER_FORWARD": [
+                "Chapter forward",
+                "Go to the next chapter"
+            ],
+            "PLAY_PAUSE": [
+                "Play/pause",
+                "Start/stop automatic changing frames"
+            ],
+            "SAVE_JOB": [
+                "Save the job",
+                "Submit unsaved changes of annotations to the server"
+            ],
+            "CANCEL_SKELETON_EDGE": [
+                "Cancel skeleton drawing",
+                "Interrupts drawing a new skeleton edge"
+            ]
+        }
+    }
+}
