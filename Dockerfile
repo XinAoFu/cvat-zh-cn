@@ -85,7 +85,7 @@ RUN --mount=type=cache,target=/root/.cache/pip/http-v2 \
     -r /tmp/cvat/requirements/${CVAT_CONFIGURATION}.txt \
     -w /tmp/wheelhouse
 
-FROM golang:1.27.1 AS build-smokescreen
+FROM golang:1.27.2 AS build-smokescreen
 
 COPY build-sources/smokescreen-master.tar.gz /tmp/
 RUN mkdir -p smokescreen-src && tar -zxf /tmp/smokescreen-master.tar.gz -C smokescreen-src --strip-components=1
